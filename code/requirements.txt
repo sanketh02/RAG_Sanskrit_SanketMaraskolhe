@@ -1,0 +1,55 @@
+# Core RAG Framework
+langchain==0.3.25
+langchain-community==0.3.24
+langchain-core==0.3.60
+
+# Embedding Models
+sentence-transformers==4.1.0
+transformers==4.52.4
+torch==2.7.0
+
+# Vector Database
+faiss-cpu==1.11.0
+
+# PDF and Text Processing
+pypdf==5.5.0
+pdfplumber==0.11.6
+
+# Sanskrit / Indic Text Processing
+indic-nlp-library==0.92
+unidecode==1.4.0
+regex==2024.11.6
+
+# Numerical Computing
+numpy==2.2.5
+pandas==2.2.3
+
+# LLM Support
+accelerate==1.7.0
+safetensors==0.5.3
+
+# UI
+streamlit==1.45.1
+
+# API Backend (Optional)
+fastapi==0.115.12
+uvicorn==0.34.2
+
+# Environment Variables
+python-dotenv==1.1.0
+
+# Utilities
+tqdm==4.67.1
+loguru==0.7.3
+
+# Optional Local LLM Runtime
+ollama==0.4.8
+
+# Evaluation (Optional)
+scikit-learn==1.6.1
+
+# test
+pytest==8.3.5
+
+# 
+rank_bm25
