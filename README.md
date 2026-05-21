@@ -115,11 +115,11 @@ python -m code.src.tests.test_generator
 python -m code.src.tests.test_pipeline
 
 11. Generated Artifacts
-artifacts/
-├── faiss_index/
-├── logs/
-├── metrics/
-└── responses/
+artifacts/-
+faiss_index/
+logs/
+metrics/
+responses/
 
 13. Conclusion
 The Sanskrit RAG System demonstrates Sanskrit document ingestion, semantic retrieval, keyword retrieval, CPU-based LLM inference, and end-to-end Retrieval-Augmented Generation.
